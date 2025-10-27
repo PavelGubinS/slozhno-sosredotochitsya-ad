@@ -169,7 +169,7 @@
   margin-bottom: 0;
 }
 
-.section__block-why-how .wrapper  {
+.section__block-why-how .wrapper {
   display: flex;
   flex-direction: column;
 }
@@ -477,7 +477,7 @@ section:nth-of-type(3) .block_text_subtitle {
     margin-bottom: var(--text-block-margin-bottom-mobile);
   }
 
-  .section__block-explain-what .wrapper{
+  .section__block-explain-what .wrapper {
     padding-left: var(--padding-mobile);
     padding-right: var(--padding-mobile);
     margin-left: 0;
@@ -508,7 +508,7 @@ section:nth-of-type(3) .block_text_subtitle {
     margin-top: 0;
   }
 
-  .section__block-show-img .wrapper{
+  .section__block-show-img .wrapper {
     margin-left: 0;
     margin-right: 0;
   }
