@@ -234,10 +234,9 @@ section:nth-of-type(3) .block_text_subtitle {
   margin-right: var(--decoration-desktop);
 }
 
- .block_text_title-pale {
+.block_text_title-pale {
   color: var(--font-color);
   background-color: var(--title-decor-color);
-  font-weight: 400;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -282,7 +281,7 @@ section:nth-of-type(3) .block_text_subtitle {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: var(--gap-desktop);
   padding: var(--padding-desktop);
   padding-bottom: 0;
@@ -313,7 +312,7 @@ section:nth-of-type(3) .block_text_subtitle {
 }
 
 .gallery__card-street {
-  grid-column: 2 / 2 span;
+  grid-column: 2 / span 2;
 }
 
 .footer {
@@ -385,8 +384,8 @@ section:nth-of-type(3) .block_text_subtitle {
     font-size: var(--logo-size);
   }
 }
-  
-@media (width <= 620px) {
+
+@media (width <=620px) {
 
   .section__block-why-how {
     display: flex;
@@ -413,15 +412,14 @@ section:nth-of-type(3) .block_text_subtitle {
     max-width: 355px;
   }
 
- .section__block-why-how .block_text_title {
+  .section__block-why-how .block_text_title {
     max-width: 355px;
     margin-bottom: var(--block_text-margin-bottom);
- }
+  }
 
- .section__block-why-how .wrapper .block_text_subtitle {
-  margin-right: 0;
- }
-
+  .section__block-why-how .wrapper .block_text_subtitle {
+    margin-right: 0;
+  }
 }
 
 @media (width <=376px) {
@@ -430,17 +428,17 @@ section:nth-of-type(3) .block_text_subtitle {
     left: var(--decoration-mobile);
     bottom: var(--decoration-mobile);
   }
-  
+
   .decorated-zone::after {
     right: var(--decoration-mobile);
     top: var(--decoration-mobile);
   }
-  
+
   .decorated-zone__text {
     top: var(--decoration-mobile);
     right: 38px;
   }
-  
+
   .header {
     margin-bottom: var(--header-margin-bottom-mobile);
     padding: var(--padding-mobile);
@@ -526,7 +524,6 @@ section:nth-of-type(3) .block_text_subtitle {
 
   .header_title {
     font-size: var(--logo-size);
-    
   }
 
   .footer {
