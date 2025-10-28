@@ -10,14 +10,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: fixed;   /* при прокрутке фон остаётся статичным */
 }
 
 .header {
   display: grid;
-  grid-template-rows: 1fr min-content 1fr auto;
-  align-items: center;
-  justify-items: end;
+  grid-template-rows: 1fr min-content 1fr auto; /* четыре строки */
+  align-items: center; /* вертикальное выравнивание по центру */
+  justify-items: end; /* горизонтальное выравнивание вправо */
   padding: var(--main-padding);
 }
 
@@ -62,14 +62,14 @@
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 10px; /* вертикальный промежуток между кнопками */
 }
 
 .header__theme-menu-button {
   color: var(--button-color);
   padding: 1.5px 13px;
   border: none;
-  background-color: transparent;
+  background-color: transparent; /* прозрачный фон */
   cursor: pointer;
 }
 
@@ -157,7 +157,7 @@
 .article {
   display: grid;
   gap: 10px;
-  grid-template-rows: min-content auto;
+  grid-template-rows: min-content auto; /* две строки: первая «по содержимому», вторая «занимает всё оставшееся» */
 }
 
 .header__description,
@@ -188,7 +188,7 @@
 
 .article__text .research-link:hover {
   outline: none;
-  border-bottom: 1px solid var(--main-text-color);
+  border-bottom: 1px solid var(--main-text-color); /* подчёркивание ссылкой */
 }
 
 .article__text .research-link:focus {
@@ -248,7 +248,7 @@
   }
 
   .title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);  /* динамический размер заголовка */
   }
 
   .header__description {
