@@ -8,10 +8,6 @@
   --header-weight: 700;
   --text-weight: 400;
 
-  --main-padding: 10px;  /* 20px при > 375  */
-  --main-content-vertical-padding: 40px;  /* 60px при > 375  */
-  --sections-gap: 50px;  /* 80px при > 375  */
-
   --main-text-color: #f1b2ce;  /* #353430 */
   --bg-color: #000028;  /* #fff1f7 */
   --main-header-color: #db00ff; /* #ffc2e6 */
@@ -23,4 +19,8 @@
   --link-shadow-color: #ff0070; /* #ff8dcb */
   --bg-image: url("../images/cover-image-dark.png");
   --visible: visible;
+
+  --main-padding: 10px;  /* 20px при > 375  */
+  --main-content-vertical-padding: 40px;  /* 60px при > 375  */
+  --sections-gap: 50px;  /* 80px при > 375  */
 }
