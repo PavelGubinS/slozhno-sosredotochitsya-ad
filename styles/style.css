@@ -256,7 +256,7 @@
   }
 
   .article__images-image:first-child {
-    grid-column: span 2;
+    grid-column: span 2; /* заставляет элемент занимать две строки в сетке, объединяя их */
   }
 
   .article__images-image:nth-child(2) {
@@ -285,7 +285,7 @@
 
   .header__theme-menu {
     justify-self: center;
-    align-self: start;
+    align-self: start; /* выравниваем элемент по началу поперечной оси контейнера */
   }
 
   .header__theme-menu-list {
